@@ -1,6 +1,6 @@
 
 /**
- * Purpose  - I am in Happy Mood message in Constructor Should  Return SAD
+ * Purpose  -  Handle Exception if User Provides Invalid  Mood like null
  * @author  - Ashvini Kanojia
  * @version - 16.0
  * @since   - 01-04-2022
@@ -15,16 +15,22 @@ public class MoodAnalyserMain {
     /**
      * create a default constructor name as MoodAnalyserMain
      */
+
     public MoodAnalyserMain() {
     }
 
     public MoodAnalyserMain(String message) {
-        this.message=message;
+        this.message = message;
     }
+
     public String analyseMood() {
-        if (this.message.contains("Sad"))
-            return "SAD";
-        else
+        try {
+            if (this.message.contains("Sad"))
+                return "SAD";
+            else
+                return "HAPPY";
+        } catch (NullPointerException e) {
             return "HAPPY";
+        }
     }
 }
