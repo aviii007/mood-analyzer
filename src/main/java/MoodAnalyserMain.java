@@ -1,6 +1,6 @@
 
 /**
- * Purpose  - Refactor the code to take the mood message in Constructor
+ * Purpose  - I am in Sad Mood” message in Constructor Should  Return SAD
  * @author  - Ashvini Kanojia
  * @version - 16.0
  * @since   - 01-04-2022
@@ -11,8 +11,9 @@
  */
 public class MoodAnalyserMain {
     private String message;
+
     /**
-     * create a constructor ,this is default constructor name as MoodAnalyserMain
+     * default constructor name as MoodAnalyserMain
      */
     public MoodAnalyserMain() {
     }
