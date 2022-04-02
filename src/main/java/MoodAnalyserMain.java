@@ -1,6 +1,6 @@
 
 /**
- * Purpose  - I am in Sad Mood” message in Constructor Should  Return SAD
+ * Purpose  - I am in Happy Mood message in Constructor Should  Return SAD
  * @author  - Ashvini Kanojia
  * @version - 16.0
  * @since   - 01-04-2022
@@ -13,7 +13,7 @@ public class MoodAnalyserMain {
     private String message;
 
     /**
-     * default constructor name as MoodAnalyserMain
+     * create a default constructor name as MoodAnalyserMain
      */
     public MoodAnalyserMain() {
     }
