@@ -1,6 +1,6 @@
 
 /**
- * Purpose  -  ability to analyse and respond Happy or Sad Mood
+ * Purpose  -  I am in sad mood, message should returmn sad
  * @author  - Ashvini Kanojia
  * @version - 16.0
  * @since   - 01-04-2022
